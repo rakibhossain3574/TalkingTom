@@ -70,9 +70,6 @@
                 margin-bottom: 20px;
                 margin-top: 20px;
             }
-            .mainDesktop {
-                position: fixed;
-            }
             .signupInput {
                 padding: 0px;
             }
@@ -124,9 +121,6 @@
                 margin-bottom: 20px;
                 margin-top: 20px;
             }
-            .mainDesktop {
-                position: fixed;
-            }
             .signupInput {
                 padding: 0px;
             }
@@ -171,9 +165,6 @@
             .signupBox {
                 margin-bottom: 20px;
                 margin-top: 20px;
-            }
-            .mainDesktop {
-                position: fixed;
             }
             .signupInput {
                 padding: 0px;
