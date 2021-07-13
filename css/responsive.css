@@ -1,0 +1,314 @@
+        @media (min-width: 1200px) {
+            .container {
+                max-width: 1170px;
+            }
+            .Title01 {
+                padding: 0px 95px;
+                line-height: 1;
+            }
+            .mainDesktop {
+                background-position: center 90px;
+            }
+        }
+        
+        @media (min-width: 1400px) {
+            .container {
+                max-width: 1370px;
+            }
+            .Title01 {
+                font-size: 49px;
+                padding: 0px 200px;
+                line-height: 1;
+            }
+        }
+        
+        @media (min-width: 1500px) {}
+        
+        @media (max-width: 1366px) {}
+        
+        @media (max-width: 1280px) {}
+        
+        @media (max-width: 1199px) {
+            .Title01 {
+                font-size: 49px;
+                padding: 0px 65px;
+                line-height: 1;
+            }
+            .mainDesktop {
+                background-position: center 83px;
+            }
+        }
+        
+        @media (max-width: 990px) {
+            
+            .Title01 {
+                font-size: 28px;
+                line-height: 1.1;
+            }
+            .mainDesktop {
+                background-position: center 70px;
+            }
+            .presshereButton {
+                font-size: 15px;
+            }
+            .subTitle {
+                font-size: 22px;
+                margin-top: 75px;
+            }
+            h2 {
+                line-height: 1.3;
+            }
+            .signupText br {
+                display: block;
+            }
+            .Title01 {
+                font-size: 47px;
+                padding: 0;
+                line-height: 0.9;
+            }
+            .signupBox {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .mainDesktop {
+                position: fixed;
+            }
+            .signupInput {
+                padding: 0px;
+            }
+            .inputStyle,
+            .signmeupButton {
+                height: 50px;
+            }
+        }
+        
+        @media (max-width: 991px) {}
+        
+        @media (max-width: 860px) {}
+        
+        @media (max-width: 768px) {}
+        
+        @media (max-width: 768px) {
+            
+            .Title01 {
+                font-size: 28px;
+                line-height: 1.1;
+            }
+            .mainDesktop {
+                background-position: center 0;
+            }
+            main.mainDesktop.adjustment {
+                background-position: center 10px;
+            }
+            .presshereButton {
+                font-size: 15px;
+            }
+            .subTitle {
+                font-size: 22px;
+                margin-top: 15px;
+            }
+            h2 {
+                line-height: 1.3;
+            }
+            .signupText br {
+                display: none;
+            }
+            .signupButton {
+                margin-top: 25px;
+            }
+            .Title01 {
+                margin-top: 25px;
+                padding: 0;
+            }
+            .signupBox {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .mainDesktop {
+                position: fixed;
+            }
+            .signupInput {
+                padding: 0px;
+            }
+            .inputStyle,
+            .signmeupButton {
+                height: 50px;
+            }
+            .subTitle br {
+                display: block;
+            }
+        }
+        @media (max-width: 610px) {
+            
+            .Title01 {
+                font-size: 28px;
+                line-height: 1.1;
+            }
+            .mainDesktop {
+                background-position: center 20px;
+            }
+            .presshereButton {
+                font-size: 15px;
+                margin-top: 300px;
+            }
+            .subTitle {
+                font-size: 22px;
+                margin-top: 15px;
+            }
+            h2 {
+                line-height: 1.3;
+            }
+            .signupText br {
+                display: none;
+            }
+            .signupButton {
+                margin-top: 25px;
+            }
+            .Title01 {
+                margin-top: 25px;
+                padding: 0;
+            }
+            .signupBox {
+                margin-bottom: 20px;
+                margin-top: 20px;
+            }
+            .mainDesktop {
+                position: fixed;
+            }
+            .signupInput {
+                padding: 0px;
+            }
+            .inputStyle,
+            .signmeupButton {
+                height: 50px;
+            }
+            .subTitle br {
+                display: block;
+            }
+        }
+
+        @media (max-width: 513px) {
+            .Title01 {
+                line-height: 1.1;
+                font-size: 26px;
+                padding: 0;
+            }
+            h2 {
+                line-height: 1.3;
+            }
+            .subTitle {
+                font-size: 22px;
+            }
+            .mainDesktop {
+                background-position: center 45px;
+            }
+            .presshereButton {
+                margin-top: 285px;
+            }
+            main.mainDesktop.adjustment {
+                background-position: center 46px;
+            }
+        }
+        
+        @media (max-width: 414px) {
+            .Title01 {
+                line-height: 1.1;
+                font-size: 26px;
+                padding: 0 0;
+            }
+            h2 {
+                line-height: 1.3;
+            }
+            .mainDesktop {
+                background-position: center 70px;
+            }
+            main.mainDesktop.adjustment {
+                background-position: center 70px;
+            }
+            .signupText {
+                font-size: 16px;
+            }
+            .signupButton {
+                margin-top: 15px;
+            }
+            .subTitle {
+                margin-top: 15px;
+                font-size: 22px;
+            }
+            .presshereButton {
+                margin-top: 285px;
+            }
+        }
+        
+        @media (max-width: 430px) {}
+        
+        
+        @media (max-width: 375px) {
+            .Title01 {
+                font-size: 27px;
+                line-height: 1.1;
+                padding: 0 0;
+            }
+            h2 {
+                line-height: 1.3;
+            }
+            .presshereButton {
+                margin-top: 260px;
+            }
+            .mainDesktop {
+                background-position: center 90px;
+            }
+            .signupBox {
+                margin-bottom: 10px;
+                margin-top: 10px;
+            }
+            .signupText {
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            .inputStyle,
+            .signmeupButton {
+                height: 46px;
+            }
+            .subTitle {
+                font-size: 18px;
+            }
+            .inputStyle,
+            .signmeupButton {
+                font-size: 14px;
+            }
+            .signupBox {
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media (max-width: 320px) {
+            .copyright {
+                font-size: 10px;
+            }
+            .signupButton {
+                margin-top: 10px;
+            }
+            .Title01 {
+                font-size: 22px;
+                margin-top: 20px;
+                padding: 0 0;
+            }
+            .mainDesktop {
+                background-position: center 83px;
+            }
+            .presshereButton {
+                margin-top: 210px;
+                padding: 8px 30px;
+            }
+            .signupText {
+                font-size: 12px;
+            }
+            .inputStyle,
+            .signmeupButton {
+                height: 40px;
+            }
+            .subTitle {
+                font-size: 17px;
+            }
+        }

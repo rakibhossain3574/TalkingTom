@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+@import url('fonts/font.css');
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    overflow-x: hidden;
+    color: #505050;
+    background-color: #fff;
+    position: relative;
+}
+
+::-webkit-input-placeholder {
+    color: #A9A9A9;
+}
+
+ ::-moz-placeholder {
+    color: #A9A9A9;
+}
+
+ :-ms-input-placeholder {
+    color: #A9A9A9;
+}
+
+ :-moz-placeholder {
+    color: #A9A9A9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0 0 15px;
+    font-weight: 400;
+    font-family: 'SFProText-Regular';
+}
+
+a {
+    color: #fff;
+    text-decoration: none !important;
+    transition: ease-in-out 0.3s;
+    display: inline-block;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #ff4800;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #505050;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+ul {
+    margin: 0;
+}
+
+input,
+select,
+textarea,
+button,
+input:focus,
+button:focus {
+    outline: none;
+}
+
+button {
+    transition: ease-in-out 0.3s;
+}
+
+img {
+    max-width: 100%;
+}
+
+header,
+section,
+footer {
+    width: 100%;
+}
+
+body {
+    background: #000;
+}
+
+.topTimer {
+    background: #505050;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timerBox {
+    display: block;
+    position: relative;
+}
+
+.timerBox {
+    display: block;
+    padding: 0px 15px;
+    color: #fff;
+    font-size: 11px;
+}
+
+.timerBox::before {
+    content: '|';
+    position: absolute;
+    font-size: 11px;
+    color: #fff;
+    right: 0px;
+    top: 0px;
+    display: block;
+}
+
+.timerBox:last-child:before {
+    display: none;
+}
+
+.timerBox:last-child {
+    padding-right: 0px;
+}
+
+.timerBox:first-child {
+    padding-left: 0px;
+}
+
+.Title01 {
+    font-size: 52px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.presshereButton {
+    display: inline-block;
+    padding: 11px 30px;
+    border-radius: 7px;
+    border: 2px solid #9BD651;
+    color: #9BD651;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 356px;
+    text-align: center;
+}
+
+.presshereButton:hover,
+.presshereButton:focus,
+.presshereButton:active {
+    border: 2px solid #9BD651;
+    color: #fff;
+    background: #9BD651;
+}
+
+.mainDesktop {
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.desktopBG {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.mainDesktop {
+    width: 100%;
+    background-image: url(../images/bgTomClose.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 35px;
+    height: 100vh;
+}
+
+main.mainDesktop.adjustment {
+    background-position: center 30px;
+}
+
+.subTitle {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.centerBody {
+    text-align: center;
+}
+
+.signupText {
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.signupBox {
+    max-width: 600px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.signupInput {
+    max-width: 426px;
+    width: 100%;
+    padding-right: 7px;
+}
+
+.signupButton {
+    max-width: 145px;
+    width: 100%;
+    padding-left: 7px;
+}
+
+.inputStyle {
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    background: #575757;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.signmeupButton {
+    width: 100%;
+    height: 55px;
+    border: none;
+    background: #9BD651;
+    color: #020202;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 2px solid #9BD651;
+}
+
+.signmeupButton:hover {
+    background: transparent;
+    color: #9BD651;
+    border: 2px solid #9BD651;
+}
+
+.copyright {
+    font-size: 11px;
+    color: #8E8E8E;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subTitle br {
+    display: none;
+}
