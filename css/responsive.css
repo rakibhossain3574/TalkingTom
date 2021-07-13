@@ -8,6 +8,7 @@
             }
             .mainDesktop {
                 background-position: center 90px;
+                background-size: auto;
             }
         }
         
